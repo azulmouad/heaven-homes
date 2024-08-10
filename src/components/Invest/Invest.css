@@ -1,0 +1,35 @@
+
+
+.invest{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+
+.invest h1{
+    flex-basis: 100%;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.card-invest-size{
+    min-width: 20%;
+    height: 250px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--slate-100);
+    
+}
+
+.card-invest-size h2{
+    margin-top: 10px;
+    font-size: 30px;
+
+}
