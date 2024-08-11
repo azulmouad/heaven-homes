@@ -1,19 +1,26 @@
 
 .navbar {
-    /* background: var(--warning-500); */
+    
     width: 100%;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
     position: fixed;
     top: 0;
-    z-index: 10;
+    z-index: 1;
+    height: 80px;
 
 }
+ 
+.dark-nav{
+   
+    background-color: rgba(32, 32, 32, 0.419);
+    backdrop-filter: blur(10px); 
+    transition: 0.5s;
+}
 
-.navbar .title {
+.navbar .title { 
     font-size: 20px;
     font-weight: 700;
 }

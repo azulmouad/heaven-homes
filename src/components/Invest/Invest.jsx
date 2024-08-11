@@ -5,7 +5,7 @@ import invest_img from "../../assets/invest-img.png";
 
 const Invest = () => {
   return (
-    <div className="invest container">
+    <div className="invest">
       <h1>
         Find your dream home
         <br />

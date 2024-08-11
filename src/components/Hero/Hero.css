@@ -55,19 +55,5 @@
 
 
  
-.btn-search{
-    flex-basis: 30%;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    border: 1.5px solid white;
-    background: linear-gradient(90deg,var(--orange-600) , var(--orange-500));
-    padding: 15px ;
-    border-radius: 18px;
-    margin: 8px 0px;
-    cursor: pointer;
-  }
-  .btn-search:hover{
-    background: linear-gradient(90deg,var(--orange-500) , var(--orange-600));
-  }
+
   

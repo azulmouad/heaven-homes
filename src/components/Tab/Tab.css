@@ -1,0 +1,31 @@
+
+
+.tabs{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.tabs ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+   
+}
+
+.tabs ul li{
+    color:  var(--slate-400);
+    cursor: pointer;
+}
+
+.active{
+    color:  var(--black);
+    cursor: pointer;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}

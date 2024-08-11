@@ -21,7 +21,7 @@ const Hero = () => {
             placeholder="Enter an address, neighborhood, city or ZIP code"
           />
           <img src={search_config} alt="" />
-          <button className="btn-search">Search Property</button>
+          <button className="btn">Search Property</button>
         </div>
       </div>
     </div>
